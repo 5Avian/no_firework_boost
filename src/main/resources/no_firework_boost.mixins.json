@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fiveavian.no_firework_boost.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "FireworkRocketEntityMixin",
+    "FireworkRocketItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
